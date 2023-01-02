@@ -1,0 +1,33 @@
+name: foursquare_solution_gpu
+channels:
+  - pytorch
+dependencies:
+  - python=3.7
+  - jupyter
+  - tqdm
+  - pandas
+  - numpy
+  - pyarrow
+  # nn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - transformers
+  # classic models
+  - catboost
+  - scikit-learn
+  # ANN
+  - faiss-gpu
+  # helpers, visualizers
+  - shap
+  - matplotlib
+  - pip
+  - pip:
+    - Levenshtein
+    - Unidecode
+    - cdifflib
+    - pylcs
+    - h3
+    - ipywidgets
+  
